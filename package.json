@@ -1,6 +1,6 @@
 {
   "name": "hasproperty-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "If the object property check is successful, the object type including the target property is generated.",
   "main": "dist/index.js",
   "scripts": {

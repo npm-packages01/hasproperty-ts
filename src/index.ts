@@ -1,8 +1,8 @@
 export function hasProperty<T = unknown, K extends string = string>(
   x: unknown,
-  ...name: K[]
+  ...names: K[]
 ): x is {
   [M in K]: T;
 } {
-  return x instanceof Object && name.every(prop => prop in x);
+  return x instanceof Object && names.every(name => name in x);
 }
