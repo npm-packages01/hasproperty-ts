@@ -1,0 +1,16 @@
+{
+  "name": "ts-hasproperty",
+  "version": "1.0.0",
+  "description": "If the object property check is successful, the object type including the target property is generated.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript"],
+  "author": "SoraKumo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
