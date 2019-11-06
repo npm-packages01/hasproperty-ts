@@ -1,16 +1,31 @@
 {
-  "name": "ts-hasproperty",
-  "version": "1.0.0",
+  "name": "hasproperty-ts",
+  "version": "0.0.2",
   "description": "If the object property check is successful, the object type including the target property is generated.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "SoraKumo",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^3.7.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://SorakKumo001:Network1+@github.com/npm-packages01/hasproperty-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npm-packages01/hasproperty-ts/issues"
+  },
+  "homepage": "https://ttis.croud.jp/"
 }

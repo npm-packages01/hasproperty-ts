@@ -1,4 +1,4 @@
-# ts-hasproperty
+# hasproperty-ts
 
 If the object property check is successful, the object type including the target property is generated.
 
@@ -16,7 +16,7 @@ function Test(x:unknown){
 ## When using this package
 
 ```ts
-import {hasProperty} from "ts-hasproperty";
+import {hasProperty} from "hasproperty-ts";
 
 function Test(x: unknown) {
   if (hasProperty(x, "foo")) {
